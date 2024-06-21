@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редагувати користувача</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Редагувати користувача</h1>
+    <form action="update_user.html" method="post">
+        <input type="hidden" id="id" name="id" value="1"> <!-- Ідентифікатор користувача -->
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" value="John Doe" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="john@example.com" required>
+        <br>
+        <input type="submit" value="Оновити">
+    </form>
+    <a href="user_list_page.html">Назад до списку користувачів</a>
+</body>
+</html>

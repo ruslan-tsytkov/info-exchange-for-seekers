@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редагувати публікацію</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Редагувати публікацію</h1>
+    <form action="update_post.html" method="post">
+        <input type="hidden" id="id" name="id" value="1"> <!-- Ідентифікатор публікації -->
+        <label for="title">Заголовок:</label>
+        <input type="text" id="title" name="title" value="Перша публікація" required>
+        <br>
+        <label for="author">Автор:</label>
+        <input type="text" id="author" name="author" value="John Doe" required>
+        <br>
+        <label for="content">Зміст:</label>
+        <textarea id="content" name="content" required>Текст публікації...</textarea>
+        <br>
+        <input type="submit" value="Оновити">
+    </form>
+    <a href="post_list_page.html">Назад до списку публікацій</a>
+</body>
+</html>

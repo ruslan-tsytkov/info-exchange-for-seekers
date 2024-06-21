@@ -1,0 +1,145 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvTitle1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Название публикации 1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tvDateAuthor1"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintVertical_bias="0" />
+
+        <TextView
+            android:id="@+id/tvDateAuthor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Дата, Автор 1"
+            android:textSize="14sp"
+            android:gravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvTitle1"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintVertical_bias="0" />
+
+        <TextView
+            android:id="@+id/tvContent1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="Основной текст публикации 1"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/tvTitle1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvTitle2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Название публикации 2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tvDateAuthor2"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintVertical_bias="0" />
+
+        <TextView
+            android:id="@+id/tvDateAuthor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Дата, Автор 2"
+            android:textSize="14sp"
+            android:gravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvTitle2"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintVertical_bias="0" />
+
+        <TextView
+            android:id="@+id/tvContent2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="Основной текст публикации 2"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/tvTitle2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvTitle3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Название публикации 3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tvDateAuthor3"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintVertical_bias="0" />
+
+        <TextView
+            android:id="@+id/tvDateAuthor3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Дата, Автор 3"
+            android:textSize="14sp"
+            android:gravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvTitle3"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintVertical_bias="0" />
+
+        <TextView
+            android:id="@+id/tvContent3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="Основной текст публикации 3"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/tvTitle3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

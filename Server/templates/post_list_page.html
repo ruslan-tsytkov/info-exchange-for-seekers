@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список публікацій</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Список публікацій</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Заголовок</th>
+                <th>Автор</th>
+                <th>Дата</th>
+                <th>Дії</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Динамічно згенеровані рядки публікацій -->
+            <tr>
+                <td>1</td>
+                <td>Перша публікація</td>
+                <td>John Doe</td>
+                <td>2023-06-14</td>
+                <td>
+                    <a href="edit_post_page.html?id=1">Редагувати</a>
+                    <a href="delete_post.html?id=1">Видалити</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="new_post_page.html">Створити нову публікацію</a>
+</body>
+</html>

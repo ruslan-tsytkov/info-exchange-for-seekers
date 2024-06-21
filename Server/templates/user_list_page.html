@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список користувачів</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Список користувачів</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Ім'я</th>
+                <th>Email</th>
+                <th>Дії</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Динамічно згенеровані рядки користувачів -->
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>john@example.com</td>
+                <td>
+                    <a href="edit_user_page.html?id=1">Редагувати</a>
+                    <a href="delete_user.html?id=1">Видалити</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="new_user_page.html">Додати нового користувача</a>
+</body>
+</html>

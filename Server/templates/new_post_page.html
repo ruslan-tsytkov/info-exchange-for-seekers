@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Створити нову публікацію</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Створити нову публікацію</h1>
+    <form action="create_post.html" method="post">
+        <label for="title">Заголовок:</label>
+        <input type="text" id="title" name="title" required>
+        <br>
+        <label for="author">Автор:</label>
+        <input type="text" id="author" name="author" required>
+        <br>
+        <label for="content">Зміст:</label>
+        <textarea id="content" name="content" required></textarea>
+        <br>
+        <input type="submit" value="Створити">
+    </form>
+    <a href="post_list_page.html">Назад до списку публікацій</a>
+</body>
+</html>
